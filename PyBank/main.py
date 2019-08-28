@@ -8,7 +8,7 @@ maxincdate = ""
 maxdec = 0
 maxdeccdate = ""
     
-csvpath = os.path.join('Resources', 'budget_data.csv')
+csvpath = os.path.join('budget_data.csv')
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     next(csvreader,None) 

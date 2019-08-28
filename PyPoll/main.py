@@ -5,7 +5,7 @@ totalvotes = 0
 candidates = []
 votesPerCandidates = []
 
-csvpath = os.path.join('Resources', 'election_data.csv')
+csvpath = os.path.join('election_data.csv')
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     next(csvreader,None) 

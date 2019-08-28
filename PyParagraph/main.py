@@ -4,7 +4,7 @@ nsentences = 0
 totnwords = 0
 nletters = 0
 
-with open('raw_data/paragraph_2.txt', 'r',encoding='utf-8') as file:
+with open('paragraph_2.txt', 'r',encoding='utf-8') as file:
     for line in file:
         line = line.replace('“','')
         line = line.replace('”','')
